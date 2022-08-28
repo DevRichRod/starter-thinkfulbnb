@@ -47,7 +47,7 @@ main img {
   align-items: center;
 }
 
-.searchList{
+.groupForm{
   display: flex;
   flex-direction: column;
 }
@@ -163,7 +163,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 800px){
+@media all and (min-width: 480px){
   header{
     display: flex;
     justify-content: space-between;
@@ -202,7 +202,7 @@ footer p {
 
   }
 
-  .searchList{
+  .groupForm{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
